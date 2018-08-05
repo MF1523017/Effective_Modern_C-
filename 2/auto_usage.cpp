@@ -10,7 +10,7 @@ void test() {
 	auto&& uref1 = x; // int &
 	auto&& uref2 = cx; // const int &
 	auto&& uref3 = rx; // const int &
-	auto&& uref4 = 1;
+	auto&& uref4 = 1; // int &&
 }
 
 int main(int argc, char **argv) {
